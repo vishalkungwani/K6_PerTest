@@ -1,0 +1,21 @@
+{
+  "name": "k6-performance-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-atwt-animal": "k6 run ./tests/atwt/animal-soak-test.js",
+    "test-atwt-animal-html-report": "node ./src/utils/html-reporter.js"
+  },
+  "keywords": [
+    "k6",
+    "performance",
+    "testing"
+  ],
+  "author": "Bharath Anandaraj",
+  "devDependencies": {
+    "k6-html-reporter": "^1.0.5"
+  },
+  "dependencies": {}
+}
